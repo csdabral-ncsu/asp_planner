@@ -69,7 +69,10 @@ concludes(C, C) :-
 split(X, Y) :-
     edge(X, Y),
     concludes(C, X),
-    not concludes(C, Y).
+    not concludes(C, Y),
+    C!=Y,
+    not terminus(Y),
+    not edge(X, C).
 
 % A node where timeline splits should have a single parent.
 % This is to avoid scenarios where a timeline feeds back into another timeline.

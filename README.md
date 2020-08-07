@@ -15,6 +15,6 @@ Running an example requires 3 steps:
     $ ./run_<example_name>.sh
     ```
 * You do not have to wait for the optimization process to finish:
-    * Each answer set generated is valid; optimization just removes unneeded causal links
+    * Each answer set generated is valid; optimization just removes unneeded causal ordering
     * Once at least one answer set has been printed, you may press Ctrl+C to stop further optimization
     * The bash script will choose the latest answer set and prompt you to copy it for visualization

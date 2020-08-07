@@ -114,3 +114,5 @@ initiates(I, Action, failed(Student)) :-
 :- not happens(_, action(lie(_, _)), _).
 #show happens/3.
 #show edge/2.
+#show satisfies/2.
+#show intends/3.
