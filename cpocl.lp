@@ -234,7 +234,7 @@ possible(I, A, al(O)) :-
     orchestrator(O),
     A=action(motivate, F, E),
     fluent(F),
-    actor(E)
+    actor(E),
     mastermind.
 
 intends(I, F, P) :-
